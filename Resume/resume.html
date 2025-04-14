@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 1500px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+        a:hover{
+           font-weight: 700; 
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            height: 1050px;
+            width: 700px;
+            border: 1px solid ;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px;
+            padding: 10px;
+            border: none;
+        }
+        h1{
+            margin: 0px;
+        }
+        .top{
+            height: 150px;
+            /* background-color: rgb(250, 207, 213); */
+            background-color: rgb(106, 114, 122);
+            color: white;
+            border-radius: 10px 10px 0px 0px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .top p{
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+            padding: 10px;
+        }
+        .bottom{
+            flex: 2;
+            display: flex;
+            border-radius: 0px 0px 10px 10px;
+        }
+        .left{
+            /* flex: 1; */
+            width: 40%;
+            /* background-color: rgb(248, 236, 221); */
+            background-color: rgb(229, 177, 185);
+            border-bottom-left-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            padding: 15px;
+        }
+        .upper{
+            height:auto;
+            width: 100%;
+            font-size: 15px;
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            padding-top: 15px;
+        }
+        img{
+            height: 20px;
+            
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        h5{
+            margin: 0px;
+            padding-top: 10px;
+        }
+        .middle{
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            position: relative;
+        }
+        h2{
+            margin-top: 15px;
+        }
+        p{
+            margin: 5px 0px 0px;
+        }
+        .skills ul{
+            display: flex;
+            flex-direction: column;
+            /* padding-top: 8px; */
+            padding-left: 20px;
+        }
+        .lower ul{
+            padding-left: 20px;
+        }
+        .heading{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding-top: 15px;
+            width: 100%;
+        }
+        hr{
+            color: black;
+            margin:5px 0px;
+
+        }
+        .middle img{
+            height: 20px;
+            /* padding-right: 5px; */
+        }
+        .right{
+            flex: 2;
+            background-color: whitesmoke;
+            padding: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .right p{
+            text-align: justify;
+        }
+        .right-middle{
+            display: flex;
+            flex-direction: column;
+        }
+        .right-lower li{
+            padding-left: 10px;
+            text-align: justify;
+        }
+        .strength li{
+            padding-left:0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Shubham Katore</h1>
+            <p>Health Informatics And Analytics</p>    
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <div class="upper">
+                    <div class="icons">
+                        <img src="resume icons/phone.png">
+                        9082214442
+                    </div>
+                    <div class="icons">
+                        <img src="resume icons/email.png">
+                        <a href="mailto:shubhamkatore712@gmailcom">shubhamkatore712@gmail.com</a>
+                    </div>
+                    <div class="icons">
+                        <img src="resume icons/linkdin.png">
+                        <a href="https://www.linkedin.com/in/shubham-katore-a80936279/">linkedin</a>
+                    </div>
+                    <div class="icons">
+                        <img src="resume icons/github.png">
+                        <a href="https://www.github.com/in/shubham12-bit896">github</a>
+                    </div>
+                    <div class="icons">
+                        <img src="resume icons/address.png">
+                        Mumbai
+                    </div>
+                </div>
+                <div class="upper-second">
+                    <div class="heading">
+                        <img src="resume icons/education.png">
+                        <strong>Education</strong>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="education">
+                        <h5>MSc Health Informatics And Analytics</h5>
+                        <p>The Apollo University</p>
+                        <p>2024-2026 (Currently pursuing)| Chittoor</p>
+                        <h5>BSc Medical Imaging Technology</h5>
+                        <p>Tata Institute of Social Science</p>
+                        <p>2024 | Mumbai</p>
+                        <h5>HSC</h5>
+                        <p>Ramanand Arya DAV College, Bhandup</p>
+                        <p>2019 | Mumbai</p>
+                        <h5>SSC</h5>
+                        <p>Saraswati Vidyalaya, Kanjur-Marg</p>
+                        <p>2017 | Mumbai</p>
+                    </div>
+                </div>
+                <div class="middle">
+                    <div class="heading">
+                        <img src="resume icons/skills.png" alt="">
+                        <strong>skills</strong>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="skills">
+                        <ul>
+                            <li>Python (Numpy, Pandas, Matplotlib, Seaborn)</li>
+                            <li>SQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>IT Standards: HL7, FHIr, DICOM</li>
+                            <li>SNOMED CT, ICD-10</li>
+                            <li>Clinical understanding</li>
+                            <li>Raiology information system</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lower">
+                    <div class="heading">
+                        <img src="resume icons/languages.png">
+                        <strong>Languages</strong>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="last">
+                        <ul>
+                            <li>Marathi</li>
+                            <li>Hindi</li>
+                            <li>English</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-up">
+                    <div class="heading">
+                        <img src="resume icons/objective.png" alt="">
+                        <strong>Objective</strong>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <p>Passionate healthcare technologist with a background in medical imaging and ongoing MSc in Health Informatics & Analytics. Skilled in Python, SQL, and data visualization, seeking opportunities to apply analytics and machine learning to solve real-world problems in clinical diagnostics and healthcare operations.</p>
+                </div>
+                <div class="right-middle">
+                    <div class="heading">
+                        <img src="resume icons/experiance.png" alt="">
+                        <strong>Professional Experiance</strong>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="right-lower">
+                        <strong>Radiology Intern</strong>
+                        <p>Saint Georges Hospital | CSMT</p> <br>
+                        <strong>Radiology technician</strong>
+                        <p>Krsnaa Dignostics | Mumbai</p><br>
+                        <li>Assisted in performing CT, MRI, and X-ray procedures, ensuring adherence to safety protocols.</li>
+                        <li>Handled DICOM images and PACS systems for data entry and retrieval.</li>
+                        <li>Coordinated with radiologists to maintain patient imaging records and reports.</li>
+                        <li>Gained exposure to Radiology Information System (RIS) and Electronic Medical Records (EMR).</li> <br>
+                        
+                    </div>
+                </div>
+                <div class="right-lower2">
+                    <div class="heading">
+                        <img src="resume icons/strength.png">
+                        <strong>Strengths</strong>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <div class="strength">
+                        <ul>
+                            <li>Strong clinical and technical integration skills</li>
+                            <li>Proficient in healthcare data analysis and visualization</li>
+                            <li>Problem-solving and critical thinking</li>
+                            <li>Quick learner and highly adaptable</li>
+                            <li>Effective communicator with multidisciplinary teams</li>
+                            <li>Detail-oriented with a strong ethical foundation</li>
+                            <li>Team player with leadership potential</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="certificates">
+                    <div class="heading">
+                        <img src="resume icons/certification.png">
+                        <strong>Certifications</strong>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/GLG5FXR8NHMS"><strong>AI in Healthcare</strong></a> | Coursera | Standford Online
+                        </li>
+                        <li>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/83LEPURK7URV"><strong>Introduction to clinical data</strong></a> | coursera | Standford Online
+                        </li>
+                        <li>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/MHYVE25NJ43J"><strong>Fundamentals of Machine learning for Healthcare</strong></a> | Coursera | Standford Online 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
